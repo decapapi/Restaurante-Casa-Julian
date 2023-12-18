@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'Allegro';
+    src: url("../fonts/allegro.ttf") format('ttf'),
+        url("../fonts/allegro.woff") format('woff'),
+        url("../fonts/allegro.woff2") format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+body {
+    background-color: #808080;
+    user-select: none;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0em;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+header {
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    padding: 5px 40px;
+    background-color: #fdfdfddc;
+    justify-content: space-between;
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.2s, color 0.1s;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Allegro';
+    font-size: 55px;
+    padding: 20px 0 0 40px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    margin-bottom: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    align-items: start;
+    justify-content: space-between;
+    background-color: #FDFDFD;
+    padding: 40px 60px;
+}
+
+footer p, a{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+}
+
+footer h1 {
+    font-family: 'Allegro';
+    font-size: 50px;
+    padding: 10px 0;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer>iframe {
+    flex: 35%;
+    max-width: 40%;
+    height: 15rem;
+    border:0; 
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(35, 35, 35, 0.3);
+}
+
+#informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#titulo {
+    font-family: 'Allegro';
+    font-size: 65px;
+    font-weight: 900;
+    padding: 5px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#menu {
+    height: fit-content;
+    max-width: fit-content;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu li {
+    margin: 15px;
+    font-size: 18px;
+    list-style: none;
+}
+
+#menu a {
+    font-weight: 600;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#menu a:hover {
+    background-color: #2323232d;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: underline 2px;
+    border-radius: 20px;
+}
+
+.menu-nav {
+    padding: 5px 20px;
+    color: #FDFDFD;
+    background: #1a1a1ac9;
+    border-bottom: #fdfdfd9a 1px solid;
+}
+
+.menu-nav #titulo {
+    font-size: 55px;
+    font-weight: 500;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.4);
+}
+
+.menu-nav #menu {
+    color: #FDFDFD;
+}
+
+.menu-nav #menu>li>a {
+    font-size: 18px;
+    color: #FDFDFD;
+}
+.menu-nav #menu a:hover {
+    background-color: #d1d1d12d;
+}
+
+#banner {
+    margin: 0;
+    height: 40em;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../img/banner.png") center no-repeat;
+    background-size: cover;
+}
+
+#carta {
+    background-color: #dbdbdb;
+    padding: 25px;
+}
+
+#selector {
+    padding: 20px;
+    margin-left: auto;
+    justify-content: center;
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#opiniones {
+    background-color: #FDFDFD;
+    padding: 25px;
+}
+
+#encargos {
+    background-color: #dbdbdb;
+    padding: 25px;
+}
+
+#encargo {
+    font-family: 'Form';
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 45%;
+    margin: 0 auto;
+}
+
+#encargo * {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+
+#encargo label {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#encargo input, textarea {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgba(35, 35, 35, 0.3);
+}
+
+#encargo input {
+    height: 30px;
+}
+
+#encargo textarea {
+    height: 80px;
+    resize: none;
+}
+
+#encargo button {
+    margin: 15px;
+    font-size: 18px;
+    height: 40px;
+    width: 50%;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 15px rgba(35, 35, 35, 0.3);
+    cursor: pointer;
+}
+
+#encargo button:hover {
+    background-color: #f1f1f1;
+}
+
+.categoria-carta {
+    display: none;
+}
+
+.categoria-carta.activo {
+    padding: 20px;
+    margin-left: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+}
+
+.selector-carta {
+    color: #FDFDFD;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 25px;
+    background-color: #FDFDFD;
+    margin: 15px;
+    cursor: pointer;
+    height: 6rem;
+    max-width: 25rem;
+    flex: 16.5rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(35, 35, 35, 0.9);
+}
+
+.selector-carta:hover {
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(35, 35, 35, 1);
+}
+
+#entrantes.selector-carta {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/entrante.jpg") center no-repeat;
+}
+
+#carnes.selector-carta {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/carne.jpg") center no-repeat;
+}
+
+#pescados.selector-carta {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/pescado.jpg") center no-repeat;
+}
+
+#arroces.selector-carta {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/arroz.jpg") center no-repeat;
+}
+
+#entrantes.selector-carta, #carnes.selector-carta, #pescados.selector-carta, #arroces.selector-carta {
+    background-size: 110%;
+}
+
+#entrantes.selector-carta:hover, #carnes.selector-carta:hover, #pescados.selector-carta:hover, #arroces.selector-carta:hover {
+    background-size: 120%;
+}
+
+.elemento-carta {
+    height: 12rem;
+    background-color: #FDFDFD;
+    flex: 30rem;
+    max-width: 47rem;
+    min-width: 32rem;
+    border-radius: 10px;
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 25px;
+    margin: 25px 30px;
+    box-shadow: 5px 5px 15px rgba(35, 35, 35, 0.3);
+}
+
+.imagen-carta {
+    height: 100%;
+    width: 45%;
+}
+
+.imagen-carta>img {
+    height: 100%;
+    width: 100%;
+    background: #dbdbdb;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.descripcion {
+    margin-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 14px;
+}
+  
+.radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+}
+  
+.radio-inputs .radio input {
+    display: none;
+}
+  
+.radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 15px 5px;
+    color: rgba(51, 65, 85, 1);
+}
+  
+.radio-inputs .radio input:checked + .name {
+    background-color: #FFFFFF;
+    font-weight: 600;
+    box-shadow: 3px 3px 15px rgba(35, 35, 35, 0.3);
+}
+
+/* Tablets (Portrait) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+}
+  
+/* Tablets (Landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Smartphones (Portrait) */
+@media only screen and (max-width: 599px) {
+    h2 {
+        font-size: 22px;
+    }
+    #titulo {
+        font-size: 60px;
+    }
+    .menu-nav #titulo {
+        font-size: 50px;
+    }
+    #menu {
+        display: none;
+    }
+    #banner {
+        height: 30em;
+    }
+    .categoria-carta.activo {
+        padding: 20px;
+        margin-left: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex: 2;
+        flex-direction: row;
+        align-items: center;
+    }
+    .selector-carta {
+        font-size: 20px;
+        margin: 10px;
+        height: 5rem;
+        max-width: 18rem;
+        flex: 18rem;
+        border-radius: 5px;
+    }
+    .selector-carta:hover {
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .elemento-carta {
+        height: 22rem;
+        flex: 15rem;
+        max-width: 15rem;
+        min-width: 15rem;
+        flex: 2;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    .imagen-carta {
+        height: 40%;
+        width: 100%;
+    }
+    
+    .descripcion {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #encargo {
+        max-width: 100%;
+        margin: 20px;
+    }
+    
+    #encargo * {
+        max-width: 85%;
+    }
+    
+    #encargo label {
+        font-size: 20px;
+    }
+    
+    #encargo button {
+        width: 80%;
+    }
+
+    .radio-inputs {
+        flex-wrap: nowrap;
+        width: 45%;
+    }
+
+    .radio-inputs .radio .name {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p, a{
+        font-size: 16px;
+    }
+
+    footer>iframe {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+}
+
+/* Smartphones (Landscape) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    
+}

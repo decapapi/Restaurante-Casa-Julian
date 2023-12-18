@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pablo Gozálvez Ruiz">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
+    <title>Restaurante Casa Julian</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <h1 id="titulo">Casa Julian</h1>
+            <ul id="menu">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#carta">Carta</a></li>
+                <li><a href="#informacion">Encuéntranos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner"></section>
+        <section id="carta">
+            <h1>Carta</h1>
+            <div id="selector">
+                <button class="selector-carta" id="entrantes" onclick="mostrarCategoria('seccion-entrantes')">Entrantes</button>
+                <button class="selector-carta" id="carnes" onclick="mostrarCategoria('seccion-carnes')">Carnes</button>
+                <button class="selector-carta" id="pescados" onclick="mostrarCategoria('seccion-pescados')">Pescados</button>
+                <button class="selector-carta" id="arroces" onclick="mostrarCategoria('seccion-arroces')">Arroces</button>
+            </div>
+            <div id="seccion-entrantes" class="categoria-carta activo">
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/entrante.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/entrante.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/entrante.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/entrante.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/entrante.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="seccion-carnes" class="categoria-carta">
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/carne.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/carne.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/carne.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="seccion-pescados" class="categoria-carta">
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/pescado.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/pescado.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="seccion-arroces" class="categoria-carta">
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/arroz.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/arroz.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/arroz.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+                <div class="elemento-carta">
+                    <div class="imagen-carta">
+                        <img src="assets/img/arroz.jpg" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <h2>Elemento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ullam numquam enim sit doloribus, perferendis corporis voluptatem tempore cumque eligendi, totam iure amet laborum sint? Dolorum sequi veniam molestiae officiis?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="opiniones">
+            <h1>Opiniones</h1>
+            <!--<script src="https://widget.trustmary.com/AKLaLCaPS"></script>-->
+        </section>
+        <section id="encargos">
+            <h1>Encargos</h1>
+            <form id="encargo" action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" required placeholder="Escribe tu nombre">
+                <label for="telefono">Teléfono:</label>
+                <input id="telefono" type="text" required placeholder="Escribe tu telefono">
+                <label for="num-personas">Número de asistentes:</label>
+                <input id="num-personas" type="tel" required placeholder="Escribe el número de asistentes">
+                <label for="notas">Información adicional:</label>
+                <textarea id="notas" placeholder="Escribe informacion adicional que pueda ayudar a procesar tu encargo."></textarea>
+                <div class="radio-inputs">
+                    <label class="radio">
+                      <input type="radio" name="radio" checked="">
+                      <span class="name">Reserva</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="radio">
+                      <span class="name">Encargo</span>
+                    </label>
+                  </div>
+                <button id="login-button" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="informacion">
+            <h1>Restaurante Casa Julian</h1>
+            <hr>
+            <p>Plaça l'Aldea, 10, 12194 la Barona, Castellón</p>
+            <p>Teléfono:<a href="tel:964320165"><em>964 32 01 65</em></a></p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.8970076136397!2d-0.06654082353838095!3d40.166846770809386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5ff738696eeedd%3A0xc80c550f5c612f1f!2sRestaurante%20Casa%20Julian!5e0!3m2!1ses!2ses!4v1702327853609!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+    <script>
+        window.addEventListener("scroll", function() {
+            let navbar = document.getElementById('navbar');
+            if (window.pageYOffset > 0) {
+                navbar.classList.add("menu-nav");
+            } else {
+                navbar.classList.remove("menu-nav");
+            }
+        });
+
+        function mostrarCategoria(categoria) {
+            var elementos = document.getElementsByClassName('categoria-carta');
+            for (var i = 0; i < elementos.length; i++) {
+                elementos[i].classList.remove('activo');
+            }
+            document.getElementById(categoria).classList.add('activo');
+        }
+    </script>
+</body>
+</html>
