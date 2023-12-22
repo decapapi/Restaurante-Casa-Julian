@@ -460,7 +460,6 @@ footer>iframe {
         font-size: 22px;
         cursor: pointer;
     }
-
     .elemento-carta {
         height: 22rem;
         flex: 15rem;
@@ -470,17 +469,14 @@ footer>iframe {
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    
     .imagen-carta {
         height: 40%;
         width: 100%;
     }
-    
     .descripcion {
         margin: 0;
         margin-top: 20px;
     }
-
     #encargo {
         max-width: 100%;
         margin: 20px;
@@ -491,11 +487,11 @@ footer>iframe {
     }
     
     #encargo label {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     #encargo button {
-        width: 80%;
+        width: 90%;
     }
 
     .radio-inputs {
