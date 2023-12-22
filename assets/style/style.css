@@ -343,17 +343,29 @@ footer>iframe {
 .elemento-carta {
     height: 12rem;
     background-color: #FDFDFD;
-    flex: 30rem;
-    max-width: 47rem;
-    min-width: 32rem;
+    flex: 35rem;
+    max-width: 40rem;
+    min-width: 35rem;
     border-radius: 10px;
     display: flex;
-    flex: 2;
+    flex: 3;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 25px;
     margin: 25px 30px;
     box-shadow: 5px 5px 15px rgba(35, 35, 35, 0.3);
+}
+
+.elemento-carta p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.elemento-carta .precio {
+    margin-top: auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .imagen-carta {

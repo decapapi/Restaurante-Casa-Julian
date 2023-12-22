@@ -1,0 +1,145 @@
+{
+    "entrantes": [
+        {
+            "nombre": "Patatas bravas",
+            "imagen" : "assets/img/carta/bravas.jpg",
+            "descripcion": "Patatas bravas caseras con salsa pimentón y alioli de la casa.",
+            "precio": "8.00€"
+        },
+        {
+            "nombre": "Navajas a la plancha",
+            "descripcion": "Navajas a la plancha acompañadas con guarnición.",
+            "imagen" : "assets/img/carta/navajas.jpg",
+            "precio": "0.80€/unidad"
+        },
+        {
+            "nombre": "Ensalada valenciana",
+            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
+            "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
+            "precio": "8.00€"
+        },
+        {
+            "nombre": "Ensalada valenciana",
+            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
+            "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
+            "precio": "8.00€"
+        },
+        {
+            "nombre": "Ensalada valenciana",
+            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
+            "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
+            "precio": "8.00€"
+        },
+        {
+            "nombre": "Ensalada valenciana",
+            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
+            "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
+            "precio": "8.00€"
+        }
+    ],
+    "carnes": [
+        {
+            "nombre": "Parrillada de carne",
+            "descripcion": "Parrillada de carne con chuletas, longanizas y morcillas acompañada con guarnición.",
+            "imagen" : "assets/img/carta/parrillada.jpg",
+            "precio": "11.00€"
+        },
+        {
+            "nombre": "Chuletón a la brasa",
+            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
+            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
+            "precio": "17.00€"
+        },
+        {
+            "nombre": "Chuletón a la brasa",
+            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
+            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
+            "precio": "17.00€"
+        },
+        {
+            "nombre": "Chuletón a la brasa",
+            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
+            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
+            "precio": "17.00€"
+        },
+        {
+            "nombre": "Chuletón a la brasa",
+            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
+            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
+            "precio": "17.00€"
+        },
+        {
+            "nombre": "Chuletón a la brasa",
+            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
+            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
+            "precio": "17.00€"
+        }
+    ],
+    "pescados": [
+        {
+            "nombre": "Pulpo de roca",
+            "descripcion": "Pulpo de roca con cebolla con pimentón y sal en pirámide.",
+            "imagen" : "assets/img/carta/pulpo-roca.jpg",
+            "precio": "11.00€"
+        },
+        {
+            "nombre": "Lubina con salsa de setas",
+            "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
+            "imagen" : "assets/img/carta/lubina-setas.jpg",
+            "precio": "14.00€"
+        }
+        ,
+        {
+            "nombre": "Lubina con salsa de setas",
+            "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
+            "imagen" : "assets/img/carta/lubina-setas.jpg",
+            "precio": "14.00€"
+        }
+        ,
+        {
+            "nombre": "Lubina con salsa de setas",
+            "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
+            "imagen" : "assets/img/carta/lubina-setas.jpg",
+            "precio": "14.00€"
+        }
+        ,
+        {
+            "nombre": "Lubina con salsa de setas",
+            "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
+            "imagen" : "assets/img/carta/lubina-setas.jpg",
+            "precio": "14.00€"
+        }
+    ],
+    "arroces": [
+        {
+            "nombre": "Arroz con caracoles",
+            "descripcion": "Arroz con costilla, caracoles y boletus",
+            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "precio": "13.00€"
+        },
+        {
+            "nombre": "Arroz con caracoles",
+            "descripcion": "Arroz con costilla, caracoles y boletus",
+            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "precio": "13.00€"
+        },
+        {
+            "nombre": "Arroz con caracoles",
+            "descripcion": "Arroz con costilla, caracoles y boletus",
+            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "precio": "13.00€"
+        },
+        {
+            "nombre": "Arroz con caracoles",
+            "descripcion": "Arroz con costilla, caracoles y boletus",
+            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "precio": "13.00€"
+        },
+        {
+            "nombre": "Arroz con caracoles",
+            "descripcion": "Arroz con costilla, caracoles y boletus",
+            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "precio": "13.00€"
+        }
+    ]
+}
