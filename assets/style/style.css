@@ -411,16 +411,6 @@ footer>iframe {
     box-shadow: 3px 3px 15px rgba(35, 35, 35, 0.3);
 }
 
-/* Tablets (Portrait) */
-@media only screen and (min-width: 600px) and (max-width: 767px) {
-
-}
-  
-/* Tablets (Landscape) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-}
-
 /* Smartphones (Portrait) */
 @media only screen and (max-width: 599px) {
     h2 {
@@ -481,45 +471,56 @@ footer>iframe {
         max-width: 100%;
         margin: 20px;
     }
-    
     #encargo * {
         max-width: 85%;
     }
-    
     #encargo label {
         font-size: 18px;
     }
-    
     #encargo button {
         width: 90%;
     }
-
     .radio-inputs {
         flex-wrap: nowrap;
         width: 45%;
     }
-
     .radio-inputs .radio .name {
         font-size: 16px;
         padding: 10px 15px;
     }
-
     footer {
         flex-direction: column;
         align-items: center;
     }
-
     footer p, a{
         font-size: 16px;
     }
-
     footer>iframe {
         margin-top: 20px;
         max-width: 100%;
     }
 }
 
-/* Smartphones (Landscape) */
-@media only screen and (min-width: 600px) and (max-width: 767px) {
-    
+/* Tablets (Portrait) */
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+    #menu li {
+        margin: 5px;
+    }
+    #menu a {
+        padding: 0px;
+    }
+    #encargo {
+        max-width: 75%;
+    }
+    #encargo button {
+        width: 60%;
+    } 
+    #encargo button:hover {
+        background-color: #f1f1f1;
+    }
+    footer>iframe {
+        margin-top: 15px;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
