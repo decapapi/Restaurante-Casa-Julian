@@ -2,76 +2,70 @@
     "entrantes": [
         {
             "nombre": "Patatas bravas",
-            "imagen" : "assets/img/carta/bravas.jpg",
+            "imagen" : "assets/img/carta/entrantes/bravas.jpg",
             "descripcion": "Patatas bravas caseras con salsa pimentón y alioli de la casa.",
             "precio": "8.00€"
         },
         {
             "nombre": "Navajas a la plancha",
             "descripcion": "Navajas a la plancha acompañadas con guarnición.",
-            "imagen" : "assets/img/carta/navajas.jpg",
+            "imagen" : "assets/img/carta/entrantes/navajas.jpg",
             "precio": "0.80€/unidad"
         },
         {
             "nombre": "Ensalada valenciana",
-            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
+            "imagen" : "assets/img/carta/entrantes/ensalada-valenciana.jpg",
             "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
             "precio": "8.00€"
         },
         {
-            "nombre": "Ensalada valenciana",
-            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
-            "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
-            "precio": "8.00€"
+            "nombre": "Calamares",
+            "imagen" : "assets/img/carta/entrantes/calamares.jpg",
+            "descripcion": "Calamares rebozados acompañados con limón.",
+            "precio": "9.00€"
         },
         {
-            "nombre": "Ensalada valenciana",
-            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
-            "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
-            "precio": "8.00€"
-        },
-        {
-            "nombre": "Ensalada valenciana",
-            "imagen" : "assets/img/carta/ensalada-valenciana.jpg",
-            "descripcion": "Ensalada con tomate, cebolla y aceitunas.",
-            "precio": "8.00€"
+            "nombre": "Albóndigas de carne",
+            "imagen" : "assets/img/carta/entrantes/albondigas-carne.jpg",
+            "descripcion": "Albóndigas de carne con salsa de almendras.",
+            "precio": "7.50€"
         }
     ],
     "carnes": [
         {
-            "nombre": "Parrillada de carne",
-            "descripcion": "Parrillada de carne con chuletas, longanizas y morcillas acompañada con guarnición.",
-            "imagen" : "assets/img/carta/parrillada.jpg",
+            "nombre": "Parrillada de carnes",
+            "descripcion": "Parrillada de carnes con chuletas, longanizas y morcillas.",
+            "imagen" : "assets/img/carta/carnes/parrillada.jpg",
             "precio": "11.00€"
         },
         {
             "nombre": "Chuletón a la brasa",
-            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
-            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
+            "descripcion": "Chuleta de vaca cocinada a la brasa.",
+            "imagen" : "assets/img/carta/carnes/chuleta-brasa.jpg",
+            "precio": "17.00€"
+        },
+        {
+            "nombre": "Entrecot a la brasa",
+            "descripcion": "Entrecot a la brasa con salsa roquefort, pimienta o setas.",
+            "imagen" : "assets/img/carta/carnes/entrecot-salsa.jpg",
+            "precio": "17.00€"
+        },
+        {
+            "nombre": "Parrillada de verduras",
+            "descripcion": "Parrillada de verduras.",
+            "imagen" : "assets/img/carta/carnes/parrillada-verduras.jpg",
+            "precio": "10.00€"
+        },
+        {
+            "nombre": "Chuletón a la brasa",
+            "descripcion": "Chuleta de vaca cocinada a la brasa.",
+            "imagen" : "assets/img/carta/carnes/chuleta-brasa.jpg",
             "precio": "17.00€"
         },
         {
             "nombre": "Chuletón a la brasa",
-            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
-            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
-            "precio": "17.00€"
-        },
-        {
-            "nombre": "Chuletón a la brasa",
-            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
-            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
-            "precio": "17.00€"
-        },
-        {
-            "nombre": "Chuletón a la brasa",
-            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
-            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
-            "precio": "17.00€"
-        },
-        {
-            "nombre": "Chuletón a la brasa",
-            "descripcion": "Chuleta de vaca cocinada a la brasa, acompañada con guarnición.",
-            "imagen" : "assets/img/carta/chuleta-brasa.jpg",
+            "descripcion": "Chuleta de vaca cocinada a la brasa.",
+            "imagen" : "assets/img/carta/carnes/chuleta-brasa.jpg",
             "precio": "17.00€"
         }
     ],
@@ -79,34 +73,31 @@
         {
             "nombre": "Pulpo de roca",
             "descripcion": "Pulpo de roca con cebolla con pimentón y sal en pirámide.",
-            "imagen" : "assets/img/carta/pulpo-roca.jpg",
+            "imagen" : "assets/img/carta/pescados/pulpo-roca.jpg",
             "precio": "11.00€"
         },
         {
             "nombre": "Lubina con salsa de setas",
             "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
-            "imagen" : "assets/img/carta/lubina-setas.jpg",
+            "imagen" : "assets/img/carta/pescados/lubina-setas.jpg",
             "precio": "14.00€"
-        }
-        ,
+        },
+        {
+            "nombre": "Sepia",
+            "descripcion": "Deliciosa sepia a la plancha.",
+            "imagen" : "assets/img/carta/pescados/sepia.jpg",
+            "precio": "14.00€"
+        },
+        {
+            "nombre": "Parrillada de pescado",
+            "descripcion": "Parrillada variada de pescado acompañada con guarnición.",
+            "imagen" : "assets/img/carta/pescados/parrillada.jpg",
+            "precio": "16 .00€"
+        },
         {
             "nombre": "Lubina con salsa de setas",
             "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
-            "imagen" : "assets/img/carta/lubina-setas.jpg",
-            "precio": "14.00€"
-        }
-        ,
-        {
-            "nombre": "Lubina con salsa de setas",
-            "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
-            "imagen" : "assets/img/carta/lubina-setas.jpg",
-            "precio": "14.00€"
-        }
-        ,
-        {
-            "nombre": "Lubina con salsa de setas",
-            "descripcion": "Lubina con salsa de setas acompañada con guarnición.",
-            "imagen" : "assets/img/carta/lubina-setas.jpg",
+            "imagen" : "assets/img/carta/pescados/lubina-setas.jpg",
             "precio": "14.00€"
         }
     ],
@@ -114,31 +105,31 @@
         {
             "nombre": "Arroz con caracoles",
             "descripcion": "Arroz con costilla, caracoles y boletus",
-            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "imagen" : "assets/img/carta/arroces/arroz-caracoles.jpg",
+            "precio": "13.00€"
+        },
+        {
+            "nombre": "Paella mixta",
+            "descripcion": "Arroz con costilla, caracoles y boletus",
+            "imagen" : "assets/img/carta/arroces/mixto.jpg",
+            "precio": "12.00€"
+        },
+        {
+            "nombre": "Arroz con caracoles",
+            "descripcion": "Arroz con costilla, caracoles y boletus",
+            "imagen" : "assets/img/carta/arroces/arroz-caracoles.jpg",
             "precio": "13.00€"
         },
         {
             "nombre": "Arroz con caracoles",
             "descripcion": "Arroz con costilla, caracoles y boletus",
-            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "imagen" : "assets/img/carta/arroces/arroz-caracoles.jpg",
             "precio": "13.00€"
         },
         {
             "nombre": "Arroz con caracoles",
             "descripcion": "Arroz con costilla, caracoles y boletus",
-            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
-            "precio": "13.00€"
-        },
-        {
-            "nombre": "Arroz con caracoles",
-            "descripcion": "Arroz con costilla, caracoles y boletus",
-            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
-            "precio": "13.00€"
-        },
-        {
-            "nombre": "Arroz con caracoles",
-            "descripcion": "Arroz con costilla, caracoles y boletus",
-            "imagen" : "assets/img/carta/arroz-caracoles.jpg",
+            "imagen" : "assets/img/carta/arroces/arroz-caracoles.jpg",
             "precio": "13.00€"
         }
     ]

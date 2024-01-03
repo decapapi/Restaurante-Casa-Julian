@@ -501,6 +501,7 @@ footer>iframe {
     }
     #titulo {
         font-size: 60px;
+        margin: 0 auto;
     }
     .menu-nav #titulo {
         font-size: 50px;

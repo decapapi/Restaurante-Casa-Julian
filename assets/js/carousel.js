@@ -44,7 +44,7 @@ $(document).ready(function(){
             slidesToScroll: 1,
             autoplay: false,
             autoplaySpeed: 8000,
-            infinite: true
+            infinite: false
         });
     }
 
