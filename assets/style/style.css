@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #808080;
+    background-color: #f0f0f0;
     user-select: none;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
@@ -166,7 +166,7 @@ footer>iframe {
     padding: 5px 20px;
     color: #FDFDFD;
     background: #1a1a1ac9;
-    border-bottom: #fdfdfd9a 1px solid;
+    border-bottom: #fdfdfd9a 2px solid;
 }
 
 .menu-nav #titulo {
@@ -194,8 +194,7 @@ footer>iframe {
     background-size: cover;
 }
 
-#carta {
-    background-color: #dbdbdb;
+#carta, #opiniones {
     padding: 25px;
 }
 
@@ -212,12 +211,6 @@ footer>iframe {
 
 #opiniones {
     background-color: #FDFDFD;
-    padding: 25px;
-}
-
-#encargos {
-    background-color: #dbdbdb;
-    padding: 25px;
 }
 
 #encargo {
@@ -276,6 +269,12 @@ footer>iframe {
 
 #encargo button:hover {
     background-color: #f1f1f1;
+}
+
+#carta {
+    background-image: radial-gradient(rgba(52, 52, 52, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
 }
 
 .categoria-carta {
@@ -451,7 +450,7 @@ footer>iframe {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0px 0px 5px rgba(35, 35, 35, 0.3);
+    box-shadow: 1px 2px 10px rgba(35, 35, 35, 0.3);
 }
 
 .slick-carousel {
@@ -471,7 +470,7 @@ footer>iframe {
     margin-top: 12px;
     object-fit: cover;
     border-radius: 5px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .review-text {
@@ -510,7 +509,7 @@ footer>iframe {
         display: none;
     }
     #banner {
-        height: 30em;
+        height: 23em;
     }
     .categoria-carta.activo {
         padding: 20px;
