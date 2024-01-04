@@ -194,7 +194,7 @@ footer>iframe {
     background-size: cover;
 }
 
-#carta, #opiniones {
+#carta, #opiniones, #encargos {
     padding: 25px;
 }
 
@@ -207,10 +207,6 @@ footer>iframe {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-}
-
-#opiniones {
-    background-color: #FDFDFD;
 }
 
 #encargo {
@@ -271,14 +267,18 @@ footer>iframe {
     background-color: #f1f1f1;
 }
 
-#carta {
-    background-image: radial-gradient(rgba(52, 52, 52, 0.171) 2px, transparent 0);
-    background-size: 30px 30px;
+#opiniones, #encargos    {
+    background-image: radial-gradient(rgba(27, 27, 27, 0.162) 2px, transparent 0);
+    background-size: 35px 35px;
     background-position: -5px -5px;
 }
 
 .categoria-carta {
     display: none;
+}
+
+#carta {
+    background-color: #FDFDFD;
 }
 
 .categoria-carta.activo {
@@ -445,16 +445,17 @@ footer>iframe {
 }
 
 .review-card {
+    background-color: #FDFDFD;
     margin: 0 15px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 1px 2px 10px rgba(35, 35, 35, 0.3);
+    box-shadow: 1px 2px 10px rgba(35, 35, 35, 0.5);
 }
 
 .slick-carousel {
-    margin-top: 35px;
+    margin-top: 25px;
     width: 100%;
 }
 
@@ -476,8 +477,8 @@ footer>iframe {
 .review-text {
     overflow: hidden;
     display: -webkit-box;
-    line-clamp: 4;
-    -webkit-line-clamp: 4;
+    line-clamp: 5;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     margin-bottom: 10px;
 }

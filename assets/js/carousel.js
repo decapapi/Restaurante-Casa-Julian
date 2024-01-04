@@ -40,7 +40,7 @@ $(document).ready(function(){
         });
 
         carouselContainer.slick({
-            slidesToShow: isMobileOrTablet() ? 1 : 4,
+            slidesToShow: isMobileOrTablet() ? 1 : 3,
             slidesToScroll: 1,
             autoplay: false,
             autoplaySpeed: 8000,

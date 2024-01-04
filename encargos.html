@@ -11,15 +11,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
-    <title>Restaurante Casa Julian</title>
+    <title>Encargos - Restaurante Casa Julian</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
             <h1 id="titulo">Casa Julian</h1>
             <ul id="menu">
-                <li><a href="#carta">Carta</a></li>
-                <li><a href="./encargos.html#encargos">Encargos</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#engargos">Encargos</a></li>
                 <li><a href="#informacion">Encuéntranos</a></li>
             </ul>
         </nav>
@@ -28,24 +28,29 @@
         <section id="banner">
             <h1></h1>
         </section>
-        <section id="carta">
-            <h1>Carta</h1>
-            <div id="selector">
-                <button class="selector-carta" id="entrantes" onclick="mostrarCategoria('seccion-entrantes')">Entrantes</button>
-                <button class="selector-carta" id="carnes" onclick="mostrarCategoria('seccion-carnes')">Carnes</button>
-                <button class="selector-carta" id="pescados" onclick="mostrarCategoria('seccion-pescados')">Pescados</button>
-                <button class="selector-carta" id="arroces" onclick="mostrarCategoria('seccion-arroces')">Arroces</button>
-            </div>
-            <div id="seccion-entrantes" class="categoria-carta activo"></div>
-            <div id="seccion-carnes" class="categoria-carta"></div>
-            <div id="seccion-pescados" class="categoria-carta"> </div>
-            <div id="seccion-arroces" class="categoria-carta"></div>
-        </section>
-        <section id="opiniones">
-            <h1>Opiniones</h1>
-            <div class="carousel-container">
-                <div class="slick-carousel"></div>
-            </div>
+        <section id="encargos">
+            <h1>Encargos</h1>
+            <form id="encargo" action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" required placeholder="Escribe tu nombre">
+                <label for="telefono">Teléfono:</label>
+                <input id="telefono" type="text" required placeholder="Escribe tu telefono">
+                <label for="num-personas">Número de asistentes:</label>
+                <input id="num-personas" type="tel" required placeholder="Escribe el número de asistentes">
+                <label for="notas">Información adicional:</label>
+                <textarea id="notas" placeholder="Escribe informacion adicional que pueda ayudar a procesar tu encargo."></textarea>
+                <div class="radio-inputs">
+                    <label class="radio">
+                      <input type="radio" name="radio" checked="">
+                      <span class="name">Reserva</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="radio">
+                      <span class="name">Encargo</span>
+                    </label>
+                  </div>
+                <button id="login-button" type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
